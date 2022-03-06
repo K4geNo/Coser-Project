@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  opacity: 0.8;
+  padding: 10px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 45px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.cabecalho-menu-item {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.cabecalho-menu-item:hover {
+  color: red;
+}
+
+.socials {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 30px;
+}
+
+.socials h3 a {
+  text-decoration: none;
+  color: red;
+}
+
+.icons i {
+  margin: 0 10px;
+}
+
+.container-home {
+  position: relative;
+}
+
+main section img {
+  width: 100%;
+  height: 100vh;
+  position: inherit;
+  top: 0px;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 21.61%,
+      rgba(0, 0, 0, 0.758333) 88.57%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(AF1QipP2ovLucL6UoeDgrujaFtuv-He8lWyllF0iddY=s1536.jpg);
+}
+
+.container-home-info {
+  position: relative;
+  top: -280px;
+  text-align: center;
+}
+
+.container-home-info h1 {
+  color: white;
+  font-weight: 250;
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+
+.container-home-info p {
+  color: #8b8b8b;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.icon-veja-mais {
+  position: relative;
+  top: -210px;
+  color: #8b8b8b;
+  text-align: center;
+}
+
+.icon-veja-mais p {
+  padding: 10px 0;
+}
+
+.container-conheca-coser {
+  display: grid;
+  grid-template-columns: 500px 900px;
+  align-items: center;
+  gap: 40px;
+}
+
+.container-conheca-coser img {
+  width: 475px;
+  height: 605px;
+}
+
+.conheca-coser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 769px;
+}
+
+.conheca-coser-card {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.card-ex {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  height: 266px;
+}
+
+.container-coser-cuidado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.coser-cuidado {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.coser-cuidado p {
+  width: 70%;
+}
+
+.coser-cuidado button {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #023c76;
+  color: white;
+}
+
+.coser-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.coser-video iframe {
+  border-radius: 30px;
+  background-image: url("/assets/bg-video-coser.jpg");
+}
+
+.container-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/assets/bg-services.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card-service {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0 20px;
+  gap: 10px;
+}
+
+.spec-service {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  gap: 40px;
+  margin: 0 100px;
+}
